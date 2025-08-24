@@ -1,116 +1,59 @@
 
- api02 Pulling 
  api01 Pulling 
- 719fed365262 Pulling fs layer 
- cf5e6fe8dc26 Pulling fs layer 
- 8343bba627fa Pulling fs layer 
- 6154909fa827 Pulling fs layer 
- 6154909fa827 Waiting 
- 719fed365262 Pulling fs layer 
- cf5e6fe8dc26 Pulling fs layer 
- 8343bba627fa Pulling fs layer 
- 6154909fa827 Pulling fs layer 
- 6154909fa827 Waiting 
- 8343bba627fa Downloading [==================================================>]     102B/102B
- 8343bba627fa Verifying Checksum 
- 8343bba627fa Downloading [==================================================>]     102B/102B
- 8343bba627fa Verifying Checksum 
- 8343bba627fa Download complete 
- 8343bba627fa Download complete 
- cf5e6fe8dc26 Verifying Checksum 
- cf5e6fe8dc26 Downloading [==================================================>]      94B/94B
- cf5e6fe8dc26 Download complete 
- cf5e6fe8dc26 Verifying Checksum 
- cf5e6fe8dc26 Download complete 
- 719fed365262 Downloading [>                                                  ]  411.2kB/39.71MB
- 719fed365262 Downloading [>                                                  ]  411.2kB/39.71MB
- 6154909fa827 Downloading [>                                                  ]  219.9kB/21.01MB
- 6154909fa827 Downloading [>                                                  ]  219.9kB/21.01MB
- 719fed365262 Downloading [====================>                              ]   16.3MB/39.71MB
- 719fed365262 Downloading [====================>                              ]   16.3MB/39.71MB
- 6154909fa827 Downloading [==========================>                        ]  11.21MB/21.01MB
- 6154909fa827 Downloading [==========================>                        ]  11.21MB/21.01MB
- 719fed365262 Downloading [===================================>               ]  28.45MB/39.71MB
- 719fed365262 Downloading [===================================>               ]  28.45MB/39.71MB
- 719fed365262 Downloading [=================================================> ]  39.42MB/39.71MB
- 719fed365262 Downloading [=================================================> ]  39.42MB/39.71MB
- 719fed365262 Download complete 
- 719fed365262 Download complete 
- 719fed365262 Extracting [>                                                  ]    426kB/39.71MB
- 719fed365262 Extracting [>                                                  ]    426kB/39.71MB
- 719fed365262 Extracting [==>                                                ]  1.704MB/39.71MB
- 719fed365262 Extracting [==>                                                ]  1.704MB/39.71MB
- 6154909fa827 Downloading [==========================================>        ]  17.88MB/21.01MB
- 6154909fa827 Downloading [==========================================>        ]  17.88MB/21.01MB
- 6154909fa827 Verifying Checksum 
- 6154909fa827 Download complete 
- 6154909fa827 Verifying Checksum 
- 6154909fa827 Download complete 
- 719fed365262 Extracting [=========>                                         ]  7.242MB/39.71MB
- 719fed365262 Extracting [=========>                                         ]  7.242MB/39.71MB
- 719fed365262 Extracting [==================>                                ]  14.48MB/39.71MB
- 719fed365262 Extracting [==================>                                ]  14.48MB/39.71MB
- 719fed365262 Extracting [============================>                      ]  22.58MB/39.71MB
- 719fed365262 Extracting [============================>                      ]  22.58MB/39.71MB
- 719fed365262 Extracting [======================================>            ]  30.24MB/39.71MB
- 719fed365262 Extracting [======================================>            ]  30.24MB/39.71MB
- 719fed365262 Extracting [==========================================>        ]  34.08MB/39.71MB
- 719fed365262 Extracting [==========================================>        ]  34.08MB/39.71MB
- 719fed365262 Extracting [==============================================>    ]  36.63MB/39.71MB
- 719fed365262 Extracting [==============================================>    ]  36.63MB/39.71MB
- 719fed365262 Extracting [================================================>  ]  38.34MB/39.71MB
- 719fed365262 Extracting [================================================>  ]  38.34MB/39.71MB
- 719fed365262 Extracting [==================================================>]  39.71MB/39.71MB
- 719fed365262 Extracting [==================================================>]  39.71MB/39.71MB
- 719fed365262 Pull complete 
- 719fed365262 Pull complete 
- cf5e6fe8dc26 Extracting [==================================================>]      94B/94B
- cf5e6fe8dc26 Extracting [==================================================>]      94B/94B
- cf5e6fe8dc26 Extracting [==================================================>]      94B/94B
- cf5e6fe8dc26 Extracting [==================================================>]      94B/94B
- cf5e6fe8dc26 Pull complete 
- cf5e6fe8dc26 Pull complete 
- 8343bba627fa Extracting [==================================================>]     102B/102B
- 8343bba627fa Extracting [==================================================>]     102B/102B
- 8343bba627fa Extracting [==================================================>]     102B/102B
- 8343bba627fa Extracting [==================================================>]     102B/102B
- 8343bba627fa Pull complete 
- 8343bba627fa Pull complete 
- 6154909fa827 Extracting [>                                                  ]  229.4kB/21.01MB
- 6154909fa827 Extracting [>                                                  ]  229.4kB/21.01MB
- 6154909fa827 Extracting [================>                                  ]  7.111MB/21.01MB
- 6154909fa827 Extracting [================>                                  ]  7.111MB/21.01MB
- 6154909fa827 Extracting [==================================>                ]  14.45MB/21.01MB
- 6154909fa827 Extracting [==================================>                ]  14.45MB/21.01MB
- 6154909fa827 Extracting [==================================================>]  21.01MB/21.01MB
- 6154909fa827 Extracting [==================================================>]  21.01MB/21.01MB
- 6154909fa827 Pull complete 
- 6154909fa827 Pull complete 
+ api02 Pulling 
+ 719fed365262 Already exists 
+ cf5e6fe8dc26 Already exists 
+ 8343bba627fa Already exists 
+ 8a5c47b190f4 Pulling fs layer 
+ 719fed365262 Already exists 
+ cf5e6fe8dc26 Already exists 
+ 8343bba627fa Already exists 
+ 8a5c47b190f4 Pulling fs layer 
+ 8a5c47b190f4 Downloading [>                                                  ]  226.5kB/21.12MB
+ 8a5c47b190f4 Downloading [>                                                  ]  226.5kB/21.12MB
+ 8a5c47b190f4 Downloading [=========================================>         ]   17.7MB/21.12MB
+ 8a5c47b190f4 Downloading [=========================================>         ]   17.7MB/21.12MB
+ 8a5c47b190f4 Downloading [==========================================>        ]  17.93MB/21.12MB
+ 8a5c47b190f4 Downloading [==========================================>        ]  17.93MB/21.12MB
+ 8a5c47b190f4 Verifying Checksum 
+ 8a5c47b190f4 Download complete 
+ 8a5c47b190f4 Verifying Checksum 
+ 8a5c47b190f4 Download complete 
+ 8a5c47b190f4 Extracting [>                                                  ]  229.4kB/21.12MB
+ 8a5c47b190f4 Extracting [>                                                  ]  229.4kB/21.12MB
+ 8a5c47b190f4 Extracting [=================>                                 ]   7.34MB/21.12MB
+ 8a5c47b190f4 Extracting [=================>                                 ]   7.34MB/21.12MB
+ 8a5c47b190f4 Extracting [==================================>                ]  14.68MB/21.12MB
+ 8a5c47b190f4 Extracting [==================================>                ]  14.68MB/21.12MB
+ 8a5c47b190f4 Extracting [==================================================>]  21.12MB/21.12MB
+ 8a5c47b190f4 Extracting [==================================================>]  21.12MB/21.12MB
+ 8a5c47b190f4 Pull complete 
+ 8a5c47b190f4 Pull complete 
  api01 Pulled 
  api02 Pulled 
  Network douglasmorais-java_backend  Creating
  Network douglasmorais-java_backend  Created
- Container api01  Creating
  Container api02  Creating
+ Container api01  Creating
  Container api02  Created
  Container api01  Created
  Container nginx  Creating
  Container nginx  Created
 Attaching to api01, api02, nginx
-api02  | __  ____  __  _____   ___  __ ____  ______ 
-api02  |  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
-api02  |  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
-api02  | --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-api02  | 2025-08-13 16:47:52,495 INFO  [io.quarkus] (main) backend 1.0.0-SNAPSHOT native (powered by Quarkus 3.20.2) started in 0.066s. Listening on: http://0.0.0.0:8080
-api02  | 2025-08-13 16:47:52,495 INFO  [io.quarkus] (main) Profile prod activated. 
-api02  | 2025-08-13 16:47:52,495 INFO  [io.quarkus] (main) Installed features: [cdi, rest, rest-client, rest-client-jackson, rest-jackson, smallrye-context-propagation, vertx]
 api01  | __  ____  __  _____   ___  __ ____  ______ 
 api01  |  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
 api01  |  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
 api01  | --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
-api01  | 2025-08-13 16:47:52,496 INFO  [io.quarkus] (main) backend 1.0.0-SNAPSHOT native (powered by Quarkus 3.20.2) started in 0.067s. Listening on: http://0.0.0.0:8080
-api01  | 2025-08-13 16:47:52,496 INFO  [io.quarkus] (main) Profile prod activated. 
-api01  | 2025-08-13 16:47:52,496 INFO  [io.quarkus] (main) Installed features: [cdi, rest, rest-client, rest-client-jackson, rest-jackson, smallrye-context-propagation, vertx]
+api01  | 2025-08-17 03:01:53,784 INFO  [io.quarkus] (main) backend 1.0.0-SNAPSHOT native (powered by Quarkus 3.20.2) started in 0.035s. Listening on: http://0.0.0.0:8080
+api01  | 2025-08-17 03:01:53,784 INFO  [io.quarkus] (main) Profile prod activated. 
+api01  | 2025-08-17 03:01:53,784 INFO  [io.quarkus] (main) Installed features: [cdi, rest, rest-client, rest-client-jackson, rest-jackson, smallrye-context-propagation, vertx]
+api02  | __  ____  __  _____   ___  __ ____  ______ 
+api02  |  --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+api02  |  -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+api02  | --\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+api02  | 2025-08-17 03:01:53,787 INFO  [io.quarkus] (main) backend 1.0.0-SNAPSHOT native (powered by Quarkus 3.20.2) started in 0.049s. Listening on: http://0.0.0.0:8080
+api02  | 2025-08-17 03:01:53,787 INFO  [io.quarkus] (main) Profile prod activated. 
+api02  | 2025-08-17 03:01:53,787 INFO  [io.quarkus] (main) Installed features: [cdi, rest, rest-client, rest-client-jackson, rest-jackson, smallrye-context-propagation, vertx]
 nginx  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
 nginx  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
 nginx  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
@@ -121,7 +64,6 @@ nginx  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-te
 nginx  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
 nginx  | /docker-entrypoint.sh: Configuration complete; ready for start up
 [Knginx exited with code 0
-api01  | 2025-08-13 16:49:00,312 INFO  [io.quarkus] (Shutdown thread) backend stopped in 0.009s
-api02  | 2025-08-13 16:49:00,312 INFO  [io.quarkus] (Shutdown thread) backend stopped in 0.008s
-[Kapi02 exited with code 143
+api02  | 2025-08-17 03:03:02,991 INFO  [io.quarkus] (Shutdown thread) backend stopped in 0.006s
+api01  | 2025-08-17 03:03:02,992 INFO  [io.quarkus] (Shutdown thread) backend stopped in 0.005s
 log truncated at line 1000

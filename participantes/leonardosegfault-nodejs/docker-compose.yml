@@ -1,5 +1,5 @@
 x-common-env: &env
-  REDIS: "redis://redis:6379"
+  REDIS: "/tmp/sockets/redis.sock"
   DEFAULT: "http://payment-processor-default:8080"
   FALLBACK: "http://payment-processor-fallback:8080"
 
@@ -11,7 +11,7 @@ x-base: &node
     - backend
     - payment-processor
   volumes:
-    - socks:/tmp
+    - socks:/tmp/sockets
 
 services:
   node1:
@@ -20,12 +20,12 @@ services:
     environment:
       <<: *env
       WORKERS: 1
-      UNIX_SOCK: "/tmp/node1.sock"
+      UNIX_SOCK: "/tmp/sockets/node1.sock"
     deploy:
       resources:
         limits:
           cpus: "0.575"
-          memory: "164MB"
+          memory: "150MB"
   
   node2:
     <<: *node
@@ -33,21 +33,27 @@ services:
     environment:
       <<: *env
       WORKERS: 1
-      UNIX_SOCK: "/tmp/node2.sock"
+      UNIX_SOCK: "/tmp/sockets/node2.sock"
     deploy:
       resources:
         limits:
           cpus: "0.575"
-          memory: "164MB"
+          memory: "150MB"
 
   redis:
-    image: redis:8-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile.redis
     container_name: rinha-redis
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
     deploy:
       resources:
         limits:
           cpus: "0.1"
-          memory: "12MB"
+          memory: "32MB"
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf:ro
+      - socks:/tmp/sockets
     networks:
       - backend
 
@@ -61,12 +67,12 @@ services:
       resources:
         limits:
           cpus: "0.25"
-          memory: "10MB"
+          memory: "18MB"
     ports:
       - "9999:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - socks:/tmp
+      - socks:/tmp/sockets
     networks:
       - backend
 
